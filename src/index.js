@@ -34,15 +34,11 @@ const App = () => {
           avatar={faker.image.avatar()}
         />
       </ApprovalCard>
-
       <Message
         header="Attention!"
         content="We just Updated our privacy policy here to better service our customers"
       />
-
-      <Segment>
-        <SegmentDetails />
-      </Segment>
+      <Segment />
     </div>
   );
 };
